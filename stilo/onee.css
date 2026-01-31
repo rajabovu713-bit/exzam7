@@ -204,7 +204,7 @@
    margin-top: 10%;
 }
 
-@media (max-width;550px ){
+@media (max-width:550px ){
     .bolo{
         display: none;
     }

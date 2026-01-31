@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+}
+.bolo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.o{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.o button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #42d122;
+    color: white;
+}
+.bollo{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.buttunxo{
+    display: flex;
+    gap: 8px;
+}
+.all{
+    display: flex;
+    align-items: center;
+    background-color: #F1F5F8;
+    justify-content: center;
+}
+.left button{
+   border-radius: 20px;
+   padding: 10px;
+   width:180px;
+   background-color: #42d122;
+}
+.left p{
+    padding: 30px;
+}
+.left h1{
+    font-size: 50px;
+}
+.one{
+    display: flex;
+    gap: 5px;
+    padding-top: 20px;
+}.m button{
+   border-radius: 20px;
+   padding: 9px;
+   background-color: #42d122;
+   color: white;
+   margin-top: 50px;
+}
+.oll{
+    display: flex;
+     gap: 10%;
+     align-items: center;
+}
+.lefto{
+margin-left: 10%;
+}
+.rightt button{
+    border-radius: 20px;
+    background-color: #42d122;
+    color: white;
+    padding: 10px;
+    width: 180px;
+}
+.ce {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    font-size: 20px;
+    padding: 10px;
+}
+.rk{
+    border: 1px solid black;
+}
+.lip{
+    display: flex;
+    padding: 10px;
+}
+.rk h4{
+    padding: 10px;
+}
+.du{
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+}
+.oxq {
+    background-color: black;
+    margin-top: 10%;
+    color: white;
+    padding: 80px;
+    width: 80%;
+    border-radius: 40px;
+    margin-left: 6%;
+    padding: 90px;
+}
+.i {
+    display: flex;
+    gap: 19px;
+    padding: 20px;
+}
+.oxq button {
+    border-radius: 20px;
+    color: white;
+    background-color: #43d925;
+    padding: 10px;
+}
+.ox{
+    display: flex;
+    gap:5%;
+   background-color: #279A59; 
+   padding: 40px;
+   color: white;
+   margin-top: 10%;
+}
+@media (max-width:550px ){
+    .bolo{
+        display: none;
+    }
+    .bollo p{
+       display: none;
+    }
+    .all{
+        display: flex;
+        flex-direction: column;
+    }
+        .m{
+         display: flex;
+         flex-direction: column;
+        
+        }
+        .oll{
+            display: flex;
+            flex-direction: column;
+        }
+        .ce{
+            display: flex;
+            flex-direction: column;
+        }
+        .du{
+            display: flex;
+            flex-direction: column;
+        }
+        .rk{
+            display: flex;
+            flex-direction: column;
+        }
+        .oxq{
+            display: flex;
+            flex-direction: column;
+        }
+        .glovni img {
+            display: none;
+        }
+        .ox{
+            display: flex;
+            flex-direction: column;
+        }
+        .i{
+            display: flex;
+            flex-direction: column;
+        }
+        .oxq{
+            width: 43%;
+        }
+    }
